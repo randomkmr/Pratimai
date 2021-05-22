@@ -1,0 +1,151 @@
+body {
+    max-width: 800px;
+    min-width: 374px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0.5rem;
+    opacity: 1;
+    height: 50px;
+    text-align: left;
+}
+
+img {
+    float:left;
+    margin:0 auto;
+}
+
+ul li {
+    display: inline;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+h1 {
+   padding-top: 5px; 
+}
+
+body {
+    background-color: lightgrey;
+}
+
+nav {
+    background-color: white;
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+section {
+    background-color: white;
+    margin: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: darkcyan;
+    margin-top:0;
+}
+
+.cont2 {
+    display:flex;
+   
+}
+
+
+.item {
+    background-color: white;
+    flex: 1;
+    margin: 5px;
+    text-align:center;
+    color: grey;
+    padding: 10vh 0;
+    width: 100%;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+.right .item {
+    text-align:left;
+    align-items: flex-start;
+    margin-top:5px;
+    padding: 5px;
+}
+
+.left, .right {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.left-top, .left-bot {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.item2 {
+    width: 100%;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+    .cont2 { 
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        margin: 5px;
+        padding: 1rem;
+    }
+
+    .left-bot {
+        display: none;
+    }
+
+    .item {
+        padding: 1rem;
+        text-align: left;
+    }
+
+    ul li {
+        display: flex;
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid lightgrey;
+        color: rgb(91, 189, 245);
+        text-decoration: underline;
+        
+    }
+
+    .left, .right, .cont2, div,.left-top, nav, ul, header {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav, div.left, section.right, footer {
+        margin-top:5px;
+    }
+
+    nav, h2{
+        padding-left: 1rem;
+    }
+
+    body {
+        margin:5px;
+        background: rgb(115,114,135);
+        background: linear-gradient(90deg, rgba(115,114,135,1) 0%, rgba(175,176,182,0.9948179955575981) 61%); 
+    }
+
+}

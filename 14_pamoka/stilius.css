@@ -1,0 +1,100 @@
+img {
+    filter: invert(1);
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+a {
+    color: rgb(163,74,164);
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+body {
+    background-color: rgb(236,236,236);   
+    margin: 0 auto;
+    color: rgba(83, 80, 80, 0.952);
+    
+    
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 2px grey;
+    
+}
+
+table, thead {
+    margin:0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid grey; 
+    text-align: left;
+        
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+td, th {
+    text-align: left;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: large;      
+}
+
+section {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 20px 40px 20px;
+    
+    box-shadow: 2px 2px 2px grey;
+    max-width: 800px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .container nav { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 800px;
+       
+    }
+
+    header {
+        padding:0;
+        width: 100%;
+    }
+
+    a {
+        margin: 0px 0px 0px 20px;
+    }
+
+    img {
+        margin-left:5px;
+    }
+
+    body {
+        background: rgb(115,114,135);
+        background: linear-gradient(90deg, rgba(115,114,135,1) 0%, rgba(175,176,182,0.9948179955575981) 61%); 
+    }
+
+}
